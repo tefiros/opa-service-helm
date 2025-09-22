@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  opa-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-09-22T15:02:02.875757413Z"
+    description: A Helm chart for Kubernetes
+    digest: d3ac68061c446bc56eae7bc669253e985aec500f4856a2487ad474b3982fa013
+    maintainers:
+    - name: Lucía Cabanillas Rodríguez
+    name: opa-service
+    type: application
+    urls:
+    - https://tefiros.github.io/opa-service-helm/opa-service-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-09-22T15:02:02.875128323Z"
