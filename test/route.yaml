@@ -1,0 +1,17 @@
+apiVersion: apisix.apache.org/v2
+kind: ApisixRoute
+metadata:
+  name: apisix-opa-route-dummy
+spec:
+  http:
+  - name: dummy-service
+    match:
+      paths:
+      - /example
+      methods:
+      - GET
+      - POST
+    backends:
+    - serviceName: dummy-service
+      servicePort: 80
+    plugin_config_name: access-control-apisix-opa-plugin-config
